@@ -23,7 +23,7 @@ const Hero = () => {
     let td = tdRef.current
 
     setLoading(true)
-    fetch("https://swid.herokuapp.com/swid-tracking-info", {
+    fetch("https://swid.onrender.com/swid-tracking-info", {
       method: "post",
       headers: {
         "Content-Type": "application/json"

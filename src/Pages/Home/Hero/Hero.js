@@ -23,7 +23,7 @@ const Hero = () => {
     let td = tdRef.current
 
     setLoading(true)
-    fetch("https://swid.onrender.com/swid-tracking-info", {
+    fetch("https://ill-pink-rattlesnake-tutu.cyclic.app/swid-tracking-info", {
       method: "post",
       headers: {
         "Content-Type": "application/json"
